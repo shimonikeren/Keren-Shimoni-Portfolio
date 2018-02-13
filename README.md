@@ -7,4 +7,4 @@ This serves as my work-in progress portfolio.
 * Links to various projects I've been working on 
 * And all sorts of fun things!
 
-[Click Here to go straight to my updated portfolio!]https://shimonikeren.github.io/Updated-Portfolio/)
+[Click Here to go straight to my updated portfolio!](https://shimonikeren.github.io/Updated-Portfolio/)
