@@ -1,40 +1,40 @@
 body {
- /*  background-image:url("images/vintage-concrete.png");
+  /*  background-image:url("images/vintage-concrete.png");
    background-repeat:no-repeat; 
    background-size:cover; */
-   background: white;
+  background: white;
 }
 
 .navbar {
-	border: 1px solid #D8D8D8;
+  border: 1px solid #d8d8d8;
 }
 
 .card {
-	border: 1px solid #D8D8D8;
+  border: 1px solid #d8d8d8;
 }
 
 .cardstyle {
-	margin: 20px;
+  margin: 20px;
+  display: inline-block;
 }
 
 #keren {
-	height: 130px;
-	width: 130px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	border: 2px solid #D8D8D8;
+  height: 130px;
+  width: 130px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #d8d8d8;
 }
 
 a {
-	color: black;
+  color: black;
 }
 
 footer {
-	background: white;
-	text-align: center;
-	padding: 20px;
-   	bottom:0;
-    font-size: 11px;
-    border: 1px solid #D8D8D8;
+  background: white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  font-size: 11px;
+  border: 1px solid #d8d8d8;
 }
-
