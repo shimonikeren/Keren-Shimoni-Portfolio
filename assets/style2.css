@@ -13,7 +13,8 @@ body {
      color: black;
  }
 
- .card { 
+ .card,
+ .list-group-item { 
      background-color: rgba(245, 245, 245, 0); 
      border: 0;
 }
