@@ -1,8 +1,8 @@
 body {
-  /*  background-image:url("images/vintage-concrete.png");
+   background-image:url("images/background.jpeg");
    background-repeat:no-repeat; 
-   background-size:cover; */
-  background: white;
+   background-size:cover;
+  /* background: white; */
 }
 
 .navbar {

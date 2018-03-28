@@ -1,0 +1,54 @@
+body {
+    background-image:url("images/background.jpeg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+ }
+ 
+ .navbar {
+     padding: 20px;
+     margin: 10px;
+ }
+
+ .nav-link {
+     color: black;
+ }
+
+ .card { 
+     background-color: rgba(245, 245, 245, 0); 
+     border: 0;
+}
+
+
+#keren {
+    height: 235px;
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* border: 2px solid #d8d8d8;
+    border-radius: 0; */
+  }
+
+  .cardstyle {
+      display: inline-block;
+      border: 1px dotted lightgrey;
+
+  }
+
+  .card-text {
+      align-text: center;
+
+  }
+
+  .card-img-top {
+    height: 220px;
+    width: 220px;
+    padding: 20px;
+  }
+
+  .blackLink {
+      color: black;
+  }
+
+  .connectCard {
+    border: 1px dotted lightgrey;
+  }
