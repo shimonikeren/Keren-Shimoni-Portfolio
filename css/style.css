@@ -193,15 +193,6 @@ nav ul li a {
   text-transform: capitalize;
 }
 
-.logo {
-  float: left;
-}
-
-.logo img {
-  width: 100px;
-  height: 50px;
-}
-
 .responsive {
   display: none;
   font-size: 23px;
@@ -273,6 +264,7 @@ nav ul li a {
 #about2 {
   background: #f4fafc;
   color: rgb(104, 104, 104);
+  padding: 60px 0 5px 0;
 }
 
 #about {
@@ -303,10 +295,14 @@ nav ul li a {
 }
 
 #tech {
-  padding-bottom: 24px;
-  padding-top: 24px;
+  /* padding-bottom: 24px;
+  padding-top: 24px; */
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
+}
+
+.skills {
+    list-style-type: none;
 }
 
 #about .about-descr .separator {
@@ -435,7 +431,7 @@ nav ul li a {
 
 
 .contactCenter {
-  /* text-align: center; */
+  text-align: center;
   padding-bottom: 30px;
   margin-top: -50px;
   margin-left: 12px;
