@@ -368,15 +368,37 @@ nav ul li a {
   opacity: .85;
 }
 
-.text {
+.text a{
+  margin-top: -30px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+.text a:hover {
+  color:rgb(179, 202, 230);
+  text-decoration: underline;
+}
+
+.text2 a{
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 a:hover {
+  color:rgb(179, 202, 230);
+  text-decoration: underline;
 }
 
 .test {
@@ -414,4 +436,11 @@ nav ul li a {
   padding-bottom: 30px;
   margin-top: -50px;
   margin-left: 12px;
+}
+
+
+.contactBtn {
+  color: rgb(131, 139, 196);
+  margin-bottom: 3px;
+  text-decoration: underline;
 }
