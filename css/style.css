@@ -21,33 +21,27 @@ h2 {
   font-weight: 600;
 }
 
-h4 {
-  color: #292929;
-  font-size: 14px;
-  font-weight: 600;
+a {
+  text-decoration: none;
+  color: #212020;
+}
+ 
+a:link {
+  text-decoration: none;
+  
 }
 
-a {
-  color: #292929;
-  text-decoration: none !important;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+a:visited {
+  text-decoration: none;
 }
 
 a:hover {
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  text-decoration: none;
+  color: #b0997a;
 }
 
-a:hover, a:focus {
-  color: #b8a07e;
-  text-decoration: underline;
+a:active {
+  text-decoration: none;
 }
 
 nav ul li a {
@@ -73,16 +67,6 @@ p {
   font-size: 15px;
   color: #999999;
   line-height: 28px;
-}
-
-::-moz-selection {
-  background: #b8a07e;
-  color: #fff;
-}
-
-::selection {
-  background: #b8a07e;
-  color: #fff;
 }
 
 .btn {
@@ -225,7 +209,6 @@ nav ul li a {
 }
 
 .header-content h1 {
-  /* color: #fff; */
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -233,9 +216,9 @@ nav ul li a {
   color: white;
 }
 
-.header-content h3 {
-  font-size: 20px;
-  font-weight: 700;
+.header-content h2 {
+  font-weight: 650;
+  font-size: 22px;
   text-align: center;
   color:rgb(94, 93, 93);
 }
@@ -295,8 +278,6 @@ nav ul li a {
 }
 
 #tech {
-  /* padding-bottom: 24px;
-  padding-top: 24px; */
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
 }
@@ -317,16 +298,16 @@ nav ul li a {
   padding-bottom: 50px;
 }
 
-#portfolio .portfolio-list {
+#portfolio {
   margin-bottom: 50px;
 }
 
-#portfolio .portfolio-list .nav {
+#portfolio .nav {
   display: inline-block;
   margin: 0;
 }
 
-#portfolio .portfolio-list .nav li {
+#portfolio .nav li {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
@@ -344,7 +325,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#portfolio .nav li:hover, #portfolio .nav li.filter-active  {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -398,7 +379,6 @@ nav ul li a {
   text-align: center;
 }
 
-
 .test {
   font-family: 'Playfair Display', serif;
 
@@ -429,11 +409,9 @@ nav ul li a {
   display: block;
 }
 
-
 .contactCenter {
   text-align: center;
   padding-bottom: 30px;
   margin-top: -50px;
   margin-left: 12px;
 }
-
