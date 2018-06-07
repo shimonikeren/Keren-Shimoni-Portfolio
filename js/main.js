@@ -1,17 +1,12 @@
 $(document).ready(function() {
 
-  'use strict';
-
   //===================NAVBAR SHOW/HIDE==========================//
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 200 ) {
-      $("#main-nav, #main-nav-subpage").slideDown(700);
-      $("#main-nav-subpage").removeClass('subpage-nav');
+    if (scroll > 250 ) {
+      $("#main-nav").slideDown(700);
     } else {
       $("#main-nav").slideUp(700);
-      $("#main-nav-subpage").hide();
-      $("#main-nav-subpage").addClass('subpage-nav');
     }
   });
   // =====================RESPONSIVE MENU======================== //

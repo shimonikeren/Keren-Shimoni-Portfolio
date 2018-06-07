@@ -65,8 +65,8 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
-  line-height: 28px;
+  color: #797676;
+  line-height: 26px;
 }
 
 .btn {
@@ -103,13 +103,6 @@ p {
   border-radius: 0;
   color: #999999;
   height: 50px;
-  letter-spacing: 0.1em;
-  line-height: 14px;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  outline: 0 none;
 }
 
 .paddsection {
@@ -122,15 +115,7 @@ p {
   padding-bottom: 90px !important;
 }
 
-.hvr-shutter-in-horizontal::before {
-  background: #333;
-}
-
-.hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
-}
-
-.contact-contact {
+.contact-section {
   margin-bottom: 30px;
   margin-left: 40px;
 }
@@ -148,7 +133,7 @@ nav {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
-.nav-menu {
+.navigation-menu {
   float: right;
   line-height: 32px;
   margin-bottom: 0;
@@ -158,7 +143,6 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -169,7 +153,6 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -233,12 +216,12 @@ nav ul li a {
   font-weight: 500;
 }
 
-.header-content .list-social li {
+.header-content li {
   float: left;
   margin-right: 20px;
 }
 
-.header-content .list-social li i {
+.header-content li i {
   color: #fff;
   font-size: 15px;
 }
@@ -313,8 +296,6 @@ nav ul li a {
   font-size: 14px;
   color: #999999;
   line-height: 16px;
-  cursor: pointer;
-  font-family: 'Poppins', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -347,8 +328,10 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
-  max-height: 400px;
+  max-height: 280px;
   min-height: 280px;
+  max-width: 330px;
+  min-width: 330px;;
 }
 
 .overlay {
@@ -401,8 +384,9 @@ nav ul li a {
   text-decoration: underline;
 }
 
-.test {
+.typedText {
   font-family: 'Playfair Display', serif;
+  color: #797676;
 
 }
 
@@ -437,7 +421,6 @@ nav ul li a {
   margin-top: -50px;
   margin-left: 12px;
 }
-
 
 .contactBtn {
   color: rgb(131, 139, 196);
